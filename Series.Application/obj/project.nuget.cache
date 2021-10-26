@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cJwBizhHxrDVqsNeJKl3kOwQRjplhAKapcc5JtYZEOSK7xFgkifPIYSe62UGOHAtJTz9XySyES40cd6Hu4MnMQ==",
+  "success": true,
+  "projectFilePath": "C:\\1.Dev\\Projetos_pessoais\\DIO\\DIO.Series\\Series.Application\\Series.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jadei\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\jadei\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
