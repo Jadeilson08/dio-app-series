@@ -29,6 +29,9 @@ namespace Series.Api
         {
             services.AddInfrastructure();
             services.AddRepositories();
+            services.AddServices();
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

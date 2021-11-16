@@ -10,6 +10,7 @@ namespace Series.Infra.Data.Context.Config
         {
             builder.Property(x => x.Title).HasMaxLength(50);
             builder.Property(x => x.Description).HasMaxLength(500);
+            builder.HasKey(x => x.Id);
         }
     }
 }

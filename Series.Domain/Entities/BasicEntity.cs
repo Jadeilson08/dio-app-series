@@ -1,7 +1,8 @@
+using System;
 namespace Series.Domain.Entities
 {
     public abstract class BasicEntity
     {
-        public int Id { get; protected set; }
+        public Guid Id { get; protected set; }
     }
 }

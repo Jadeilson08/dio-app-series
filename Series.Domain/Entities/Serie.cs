@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Series.Domain.Enums;
@@ -8,9 +9,10 @@ namespace Series.Domain.Entities
     {
         public Serie(string title, string description, int year)
         {
-            this.Title = title;
-            this.Description = description;
-            this.Year = year;
+            Title = title;
+            Description = description;
+            Year = year;
+            Id = Guid.NewGuid();
             _genres = new List<Genre>();
         }
 
