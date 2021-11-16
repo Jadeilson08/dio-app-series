@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Series.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Series.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Series.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Series.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Series.Domain/Series.Domain.csproj",
+      "msbuildProject": "../Series.Domain/Series.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Series.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\jadei\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\1.Dev\\Projetos_pessoais\\DIO\\DIO.Series\\Series.Domain\\Series.Domain.csproj": {
+              "projectPath": "c:\\1.Dev\\Projetos_pessoais\\DIO\\DIO.Series\\Series.Domain\\Series.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -70,7 +93,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

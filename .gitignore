@@ -363,3 +363,33 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+Series.Infra.Data/obj/project.assets.json
+Series.Infra.Data/obj/project.nuget.cache
+Series.Infra.Data/obj/Series.Infra.Data.csproj.nuget.dgspec.json
+Series.Infra.Data/obj/Series.Infra.Data.csproj.nuget.g.props
+Series.Infra.Data/obj/Debug/net5.0/Series.Infra.Data.assets.cache
+Series.Infra.Data/obj/project.assets.json
+Series.Infra.Data/obj/project.nuget.cache
+Series.Infra.Data/obj/Series.Infra.Data.csproj.nuget.dgspec.json
+Series.Infra.Data/obj/Series.Infra.Data.csproj.nuget.g.props
+Series.Infra.Data/obj/Debug/net5.0/Series.Infra.Data.assets.cache
+Series.Api/obj/project.assets.json
+Series.Api/obj/project.nuget.cache
+Series.Api/obj/Series.Api.csproj.nuget.dgspec.json
+Series.Api/obj/Debug/net5.0/Series.Api.assets.cache
+Series.Api/obj/Debug/net5.0/Series.Api.csproj.AssemblyReference.cache
+Series.Api/obj/Debug/net5.0/Series.Api.GeneratedMSBuildEditorConfig.editorconfig
+Series.Application/obj/Debug/net5.0/Series.Application.assets.cache
+Series.Application/obj/Debug/net5.0/Series.Application.GeneratedMSBuildEditorConfig.editorconfig
+Series.Infra.Data/obj/project.assets.json
+Series.Infra.Data/obj/project.nuget.cache
+Series.Infra.Data/obj/Series.Infra.Data.csproj.nuget.dgspec.json
+Series.Infra.Data/obj/Series.Infra.Data.csproj.nuget.g.props
+Series.Infra.Data/obj/Debug/net5.0/Series.Infra.Data.assets.cache
+Series.Infra.IoC/obj/project.assets.json
+Series.Infra.IoC/obj/project.nuget.cache
+Series.Infra.IoC/obj/Series.Infra.IoC.csproj.nuget.dgspec.json
+Series.Infra.IoC/obj/Debug/net5.0/Series.Infra.IoC.assets.cache
+Series.Infra.IoC/obj/Debug/net5.0/Series.Infra.IoC.GeneratedMSBuildEditorConfig.editorconfig
+Series.Infra.Transport/obj/Debug/net5.0/Series.Infra.Transport.assets.cache
+Series.Infra.Transport/obj/Debug/net5.0/Series.Infra.Transport.GeneratedMSBuildEditorConfig.editorconfig

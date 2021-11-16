@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\1.Dev\\Projetos_pessoais\\DIO\\DIO.Series\\Series.Domain\\Series.Domain.csproj",
+      "projectUniqueName": "c:\\1.Dev\\Projetos_pessoais\\DIO\\DIO.Series\\Series.Domain\\Series.Domain.csproj",
       "projectName": "Series.Domain",
-      "projectPath": "C:\\1.Dev\\Projetos_pessoais\\DIO\\DIO.Series\\Series.Domain\\Series.Domain.csproj",
+      "projectPath": "c:\\1.Dev\\Projetos_pessoais\\DIO\\DIO.Series\\Series.Domain\\Series.Domain.csproj",
       "packagesPath": "C:\\Users\\jadei\\.nuget\\packages\\",
-      "outputPath": "C:\\1.Dev\\Projetos_pessoais\\DIO\\DIO.Series\\Series.Domain\\obj\\",
+      "outputPath": "c:\\1.Dev\\Projetos_pessoais\\DIO\\DIO.Series\\Series.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jadei\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

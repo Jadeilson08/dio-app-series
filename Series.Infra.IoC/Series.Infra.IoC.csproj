@@ -1,11 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
   
   <ItemGroup>
-    <ProjectReference Include="..\Series.Api\Series.Api.csproj" />
+    <!-- <ProjectReference Include="..\Series.Api\Series.Api.csproj" /> -->
     <ProjectReference Include="..\Series.Application\Series.Application.csproj" />
     <ProjectReference Include="..\Series.Domain\Series.Domain.csproj" />
     <ProjectReference Include="..\Series.Infra.Data\Series.Infra.Data.csproj" />
     <ProjectReference Include="..\Series.Infra.Transport\Series.Infra.Transport.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.12" />
   </ItemGroup>
 
   <PropertyGroup>

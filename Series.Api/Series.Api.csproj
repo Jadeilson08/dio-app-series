@@ -11,6 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Series.Application\Series.Application.csproj" />
     <ProjectReference Include="..\Series.Infra.Transport\Series.Infra.Transport.csproj" />
+    <ProjectReference Include="..\Series.Infra.IoC\Series.Infra.IoC.csproj" />
   </ItemGroup>
 
 </Project>
