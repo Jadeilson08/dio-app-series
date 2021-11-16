@@ -14,6 +14,10 @@ namespace Series.Domain.Entities
             Year = year;
             Id = Guid.NewGuid();
             _genres = new List<Genre>();
+
+            AddGenre(Genre.Action);
+            AddGenre(Genre.Adventure);
+            AddGenre(Genre.Comedy);
         }
 
         public IReadOnlyCollection<Genre> Genres { get { return _genres.ToArray(); } }

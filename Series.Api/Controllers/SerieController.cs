@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Series.Application.Service.Series;
+using Series.Infra.Transport.Input;
 
 namespace Series.Api.Controllers
 {
@@ -14,8 +15,16 @@ namespace Series.Api.Controllers
         }
 
         [HttpGet]
-        public IActionResult Get(){
+        public IActionResult Get()
+        {
             return Ok(_srSerie.GetAll());
+        }
+
+        [HttpPost]
+        public IActionResult Post([FromBody] SerieInput serie)
+        {
+            var isCreated = _srSerie.Create(serie);
+            return Ok(isCreated);
         }
         
     }
