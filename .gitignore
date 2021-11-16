@@ -369,3 +369,4 @@ Series.Application/obj/
 Series.Infra.Data/obj/
 Series.Infra.IoC/obj/
 Series.Infra.Transport/obj/
+Series.Domain/obj/

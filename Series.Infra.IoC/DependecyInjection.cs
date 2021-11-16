@@ -1,21 +1,25 @@
 using Microsoft.EntityFrameworkCore;
-// using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Series.Domain.Repositories;
 using Series.Infra.Data.Context;
+using Series.Infra.Data.Repositories;
 
 namespace Series.Infra.IoC
 {
     public static class DependecyInjection
     {
-        public static IServiceCollection AddInfrastructure(this IServiceCollection service)
+        public static IServiceCollection AddInfrastructure(this IServiceCollection services)
         {
-            // service.AddDbContext<SeriesContext>(
-            //     options => options.UseSqlite(configuration.GetConnectionString("SeriesSQLite")));
-
-            service.AddDbContext<SeriesContext>(options =>
-                options.UseInMemoryDatabase("name"));
+            services.AddDbContext<SeriesContext>(options =>
+                options.UseInMemoryDatabase("SeriesDb"));
             
-            return service;
+            return services;
+        }
+        public static IServiceCollection AddRepositories(this IServiceCollection services)
+        {
+            services.AddScoped<IRepoSerie, RepoSerie>();
+            
+            return services;
         }
     }
 }

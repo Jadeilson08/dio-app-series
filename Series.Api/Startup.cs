@@ -28,6 +28,8 @@ namespace Series.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddInfrastructure();
+            services.AddRepositories();
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
