@@ -38,7 +38,7 @@ namespace Series.Infra.Data.Repositories
 
         public IEnumerable<Serie> GetSeriesByGenre(Genre genre)
         {
-            return _context.Series.Where(x => x.Genres.Contains(genre)).ToList();
+            return _context.Series.Where(x => x.SerieGenre.ToString().Contains(genre.ToString())).ToList();
         }
 
         public IEnumerable<Serie> GetSeriesByName(string serieName)

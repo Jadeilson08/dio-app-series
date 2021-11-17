@@ -20,12 +20,18 @@ namespace Series.Api.Controllers
             return Ok(_srSerie.GetAll());
         }
 
+        [HttpGet("genres")]
+        public IActionResult GetGenres()
+        {
+            return Ok(_srSerie.GetGeneros());
+        }
+
         [HttpPost]
         public IActionResult Post([FromBody] SerieInput serie)
         {
             var isCreated = _srSerie.Create(serie);
             return Ok(isCreated);
         }
-        
+
     }
 }
